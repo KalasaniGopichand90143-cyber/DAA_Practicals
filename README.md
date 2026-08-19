@@ -1,28 +1,29 @@
 Practical 1 : Implementation and Time analysis of sorting algorithms. Bubble sort, Selection sort, Insertion sort, Merge sort and Quicksort
 
-Summary :
-This practical implements several fundamental sorting algorithms in Python, including Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, and Quick Sort. Each program accepts user input, sorts the data in ascending order, measures the execution time, and displays the time complexity. The notebook provides a practical comparison of different sorting techniques and helps understand their working principles and performance characteristics.
+Summary : 
+				In this practical, five fundamental sorting algorithms—Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort—were implemented and analyzed using Python. The execution time of each algorithm was measured to understand its practical performance. The algorithms were tested on input data and their time and space complexities were studied. Simple sorting algorithms such as Bubble, Selection, and Insertion Sort generally require O(n²) time in the average and worst cases, while Merge Sort and Quick Sort provide better average performance of O(n log n). This practical helped in understanding how different sorting techniques work and how their performance changes with the size and arrangement of input data.
 
-Conclusion :
-The implemented sorting algorithms demonstrate different approaches to arranging data efficiently. While Bubble, Insertion, and Selection Sort are suitable for small datasets, Merge Sort and Quick Sort offer significantly better performance for larger inputs. Measuring the execution time allows users to compare the efficiency of each algorithm and understand their practical applications in problem-solving.
-
+Conclusion:
+				The practical demonstrated that the choice of a sorting algorithm significantly affects program performance. Bubble Sort, Selection Sort, and Insertion Sort are simple and easy to implement, making them suitable for small datasets and learning purposes. However, their O(n²) average/worst-case time complexity makes them inefficient for large datasets. Merge Sort provides consistent O(n log n) performance, while Quick Sort generally performs very efficiently in practice with an average complexity of O(n log n), although its worst case can reach O(n²) depending on the pivot selection. Therefore, understanding the time and space complexity of sorting algorithms is essential for selecting an appropriate algorithm according to the size and nature of the input data
 
 
 
 Practical 2 : Implementation and Time analysis of linear and binary search algorithm
 
-Summary :
-This practical demonstrates the implementation of Linear Search and Binary Search algorithms in Python. The programs accept user input, search for a specified element, display whether the element is found, measure the execution time, and present the time complexity of each algorithm. The notebook highlights the differences between sequential and divide-and-conquer searching techniques.
+Summary : 
+         In this practical, Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort were implemented using Python. The execution time of each sorting algorithm was measured using different input values. The practical helped to understand the working process, time complexity, and space complexity of each algorithm. Bubble, Selection, and Insertion Sort generally take O(n²) time, whereas Merge Sort and Quick Sort are more efficient for large datasets with an average time complexity of O(n log n).
 
-Conclusion :
-The searching algorithms illustrate two common methods of locating an element in a dataset. Linear Search is simple and works on both sorted and unsorted data, whereas Binary Search is much more efficient but requires the data to be sorted beforehand. Comparing their execution times and complexities provides a clear understanding of when each algorithm should be used in real-world applications.
-
+Conclusion : 
+					From this practical, we learned that different sorting algorithms have different performance levels. Bubble Sort, Selection Sort, and Insertion Sort are simple and suitable for small datasets, while Merge Sort and Quick Sort are more efficient for larger datasets. By analyzing execution time and time complexity, we can select the most suitable sorting algorithm according to the input size and requirements. Thus, this practical provided a clear understanding of the implementation, performance, and efficiency of sorting algorithms.
 
 
 Practical 3 : Implementation of max-heap sort algorithm
 
-Summary :
-This practical demonstrates the implementation of the Max Heap Sort Algorithm in Python. The program accepts user input, constructs a max heap, and sorts the elements in ascending order using the heap sort technique. It also measures and displays the execution time, providing insight into the algorithm's runtime performance. The implementation is simple, efficient, and suitable for learning the working of heap-based sorting algorithms.
 
-Conclusion :
-The Max Heap Sort algorithm is an efficient comparison-based sorting technique that consistently performs with a time complexity of O(n log n) in the best, average, and worst cases. This implementation successfully sorts user-provided data while reporting the execution time, making it useful for analyzing algorithm performance. Overall, the project demonstrates the practical application of heap data structures and provides a clear understanding of the Heap Sort algorithm in Python.
+Summary : 
+				In this practical, the Max-Heap Sort algorithm was implemented using Python. The practical focused on understanding the concept of a Max Heap, where the parent node is always greater than or equal to its child nodes. The heap was constructed by repeatedly applying the heapify operation, and the largest element was moved to its correct position during the sorting process. The implementation helped in understanding the working of heap-based sorting and its execution process. The time complexity of Heap Sort is O(n log n) in the best, average, and worst cases, while its space complexity is O(1) for an in-place implementation.
+
+Conclusion : 
+					The practical successfully demonstrated the implementation of the Max-Heap Sort algorithm and its use for sorting elements in ascending order. Heap Sort provides consistent O(n log n) performance regardless of the initial arrangement of the data. It is also memory-efficient because it can sort the elements in-place without requiring significant additional memory. Therefore, Max-Heap Sort is an efficient and reliable sorting technique, especially when predictable performance and low extra space usage are required.
+
+performance and low extra space usage are required.
