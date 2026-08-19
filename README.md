@@ -25,3 +25,25 @@ In this practical, the Max-Heap Sort algorithm was implemented using Python. The
 
 # Conclusion : 
 The practical successfully demonstrated the implementation of the Max-Heap Sort algorithm and its use for sorting elements in ascending order. Heap Sort provides consistent O(n log n) performance regardless of the initial arrangement of the data. It is also memory-efficient because it can sort the elements in-place without requiring significant additional memory. Therefore, Max-Heap Sort is an efficient and reliable sorting technique, especially when predictable performance and low extra space usage are required performance and low extra space usage are required.
+
+
+
+# Practical 4 : Implementation and Time analysis of factorial program using iterative and recursive method
+
+# Summary : 
+
+This practical implemented factorial using iterative and recursive methods in Python. The execution time of both methods was measured and compared. Both methods have O(n) time complexity, but they differ in space usage. The iterative method uses O(1) space, while the recursive method uses O(n) space.
+
+# Conclusion : 
+ 
+Both methods successfully calculate the factorial of a number. The iterative method is more memory-efficient, while the recursive method demonstrates the concept of recursion clearly. Therefore, iteration is preferred when memory efficiency is important.
+
+# Practical 7 : Implementation of making a change problem using dynamic programming
+
+# Summary : 
+
+This practical implemented the Making Change Problem using Dynamic Programming. The algorithm finds the minimum number of coins required to make a given amount. Dynamic Programming stores previously calculated results to avoid repeated calculations. The practical also measured the execution time and analyzed the algorithm's time and space complexity.
+
+# Conclusion : 
+
+The Dynamic Programming approach efficiently solves the Making Change Problem by breaking it into smaller subproblems. It avoids unnecessary repeated calculations and provides the optimal minimum number of coins. The algorithm has O(amount × number of coins) time complexity and O(amount) space complexity.
