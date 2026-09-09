@@ -38,6 +38,28 @@ This practical implemented factorial using iterative and recursive methods in Py
  
 Both methods successfully calculate the factorial of a number. The iterative method is more memory-efficient, while the recursive method demonstrates the concept of recursion clearly. Therefore, iteration is preferred when memory efficiency is important.
 
+# Practical 5 : Implementation of a knapsack problem using dynamic programming   
+
+# Summary :
+
+This practical implemented the 0/1 Knapsack Problem using Dynamic Programming. The algorithm determines the maximum value that can be placed in a knapsack without exceeding its capacity. Dynamic Programming stores solutions to smaller subproblems to avoid repeated calculations. The execution time and space requirements were also analyzed.
+
+# Conclusion :
+
+The Dynamic Programming approach efficiently solves the 0/1 Knapsack Problem and provides the optimal maximum value. It has a time complexity of O(n × capacity) and a space complexity of O(n × capacity). This practical demonstrates how Dynamic Programming can be used to solve optimization problems efficiently.
+
+
+
+# Practical 6 : Implementation of chain matrix multiplication using dynamic programming.
+
+# Summary
+
+This practical implemented Chain Matrix Multiplication using Dynamic Programming. The algorithm finds the optimal order of multiplying a sequence of matrices to minimize the total number of scalar multiplications. Dynamic Programming stores the results of smaller matrix chains and uses them to solve larger chains. The practical also analyzed the execution time, time complexity, and space complexity.
+
+# Conclusion
+
+The Dynamic Programming approach efficiently determines the minimum multiplication cost for a chain of matrices. It avoids calculating the same subproblems repeatedly and provides an optimal multiplication order. The algorithm has O(n³) time complexity and O(n²) space complexity, making it much more efficient than checking every possible parenthesization directly.
+
 # Practical 7 : Implementation of making a change problem using dynamic programming
 
 # Summary : 
