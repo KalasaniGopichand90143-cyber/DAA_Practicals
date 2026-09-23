@@ -69,3 +69,12 @@ This practical implemented the Making Change Problem using Dynamic Programming. 
 # Conclusion : 
 
 The Dynamic Programming approach efficiently solves the Making Change Problem by breaking it into smaller subproblems. It avoids unnecessary repeated calculations and provides the optimal minimum number of coins. The algorithm has O(amount × number of coins) time complexity and O(amount) space complexity.
+
+
+# Practical 8 : Implementation of Graph and Searching (DFS and BFS).
+# Summary : 
+This practical implemented Graph Traversal using DFS and BFS in Python. DFS explores a graph by going as deep as possible before backtracking, while BFS explores vertices level by level using a queue. Both algorithms visit vertices and edges efficiently with O(V + E) time complexity. The practical helped in understanding graph representation and traversal techniques.
+
+# Conclusion : 
+
+The practical successfully demonstrated DFS and BFS graph traversal algorithms. DFS uses a stack/recursion approach, while BFS uses a queue. Both have O(V + E) time complexity, but their traversal order is different. These algorithms are fundamental techniques for solving various graph-related problems.
