@@ -78,3 +78,37 @@ This practical implemented Graph Traversal using DFS and BFS in Python. DFS expl
 # Conclusion : 
 
 The practical successfully demonstrated DFS and BFS graph traversal algorithms. DFS uses a stack/recursion approach, while BFS uses a queue. Both have O(V + E) time complexity, but their traversal order is different. These algorithms are fundamental techniques for solving various graph-related problems.
+
+
+# Practical 9 : Implement prim’s algorithm
+
+
+# Summary : 
+This practical implemented Prim’s algorithm to find the Minimum Spanning Tree of a weighted, undirected graph. The algorithm repeatedly selects the minimum-weight edge connecting a selected vertex to an unselected vertex. The total minimum cost and execution time were calculated. The algorithm has O(V²) time complexity when using an adjacency matrix.
+
+# Conclusion : 
+Prim’s algorithm successfully finds a Minimum Spanning Tree by connecting all vertices with the minimum possible total edge weight and without forming cycles. It is useful for network design problems such as connecting computers, roads, and electrical systems efficiently.
+
+# Practical 10 : Implement Kruskal’s algorithm.
+
+# Summary : 
+This practical implemented Kruskal’s algorithm to find the Minimum Spanning Tree of a weighted, undirected graph. The algorithm sorts all edges by weight and selects the smallest edges that do not form a cycle. The total minimum cost and execution time were calculated. Its time complexity is O(E log E), where E represents the number of edges.
+
+# Conclusion : 
+Kruskal’s algorithm successfully finds a Minimum Spanning Tree by connecting all vertices with minimum total edge weight without forming cycles. It uses sorting and the Union-Find data structure to detect cycles efficiently. It is useful in network design applications such as computer networks, roads, and electrical connections.
+
+
+# Practical 11 : Write a program for Floyd-Warshal algorithm.
+
+# Summary : 
+This practical implemented the Floyd–Warshall algorithm to find the shortest distances between all pairs of vertices in a weighted graph. The algorithm uses dynamic programming to update distances by considering each vertex as an intermediate vertex. The final shortest-distance matrix and execution time were displayed. Its time complexity is O(V³) and space complexity is O(V²).
+# Conclusion : 
+The Floyd–Warshall algorithm successfully calculates the shortest paths between all pairs of vertices. It is useful for solving all-pairs shortest-path problems in weighted graphs. The algorithm is simple to implement using an adjacency matrix, but its cubic time complexity can make it expensive for very large graphs.
+
+
+# Practical 12 : Write a program for travelling salesman problem.
+
+# Summary : 
+The Travelling Salesman Problem was implemented using Python and permutations. The program calculates the cost of every possible route and identifies the route with the minimum travel cost. Execution time is measured using time.perf_counter(). The brute-force method is suitable for a small number of cities.
+# Conclusion : 
+The program successfully finds the minimum-cost tour that visits every city once and returns to the starting city. However, its factorial time complexity makes it inefficient for large numbers of cities.
